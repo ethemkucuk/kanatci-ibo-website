@@ -1,0 +1,31 @@
+.carousel.carousel-slider .control-arrow {
+  background-color: transparent;
+  height: 48px;
+  width: 48px;
+  border: 2px solid #fe7634;
+  border-radius: 100%;
+  top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .carousel.carousel-slider .control-arrow {
+    top: 20%;
+  }
+}
+
+.carousel .control-prev.control-arrow:before,
+.carousel .control-next.control-arrow:before {
+  border: none;
+  width: 24px;
+  height: 24px;
+}
+
+.carousel .control-prev.control-arrow:before {
+  background: url('../src/assets/img/testimonial/arrow-left.svg') no-repeat;
+}
+
+.carousel .control-next.control-arrow:before {
+  background: url('../src/assets/img/testimonial/arrow-right.svg') no-repeat;
+}
